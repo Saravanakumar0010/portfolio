@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@600&family=Roboto&display=swap');
+nav{
+    position: absolute;
+    right: 10px;
+}
+*{
+    margin: 0;
+}
+nav a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Reem Kufi', sans-serif;
+    padding: 5px 15px;
+}
+section{
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+}
+.section-text p{
+    color: black;
+}
+.Home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section-text h2{
+    font-size: 50px;
+    font-family: 'Reem Kufi', sans-serif;
+}
+.section-text h1{
+    font-size: 80px;
+    font-family: 'Reem Kufi', sans-serif;
+    font-weight: 700;
+}
+.primary-text{
+    font-size: 50px;
+    font-family: 'Reem Kufi', sans-serif;
+    color: aliceblue;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.primary-a{
+    position: absolute;
+    animation: move 1s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin-top: 480px;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.skills{
+    margin-right: 750px;
+   font-size: 40px;
+   font-family: 'Reem Kufi', sans-serif;
+   font-weight: 700;
+   justify-content: center;
+}
+.primary-b{
+    position: absolute;
+    animation: move 1s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin-top: 630px; 
+} 
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.about img{
+    margin-top: -100px;
+    height: fit-content;
+    width: 250px;
+    border-radius: 50%;
+    flex-wrap: nowrap;
+    justify-content: center;
+
+}
+.about p{
+    font-size: 35px;
+    font-family: 'Reem Kufi', sans-serif;
+    color: aliceblue;
+    width: 800px;
+    font-weight: 100;
+    text-align: center;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.section-text svg{
+    position: relative;
+    left: 283px;
+    top: 140px;
+    animation: pop 1s ease-in-out infinite alternate;
+}
+
+@keyframes pop{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.project-container{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    margin-bottom: -20px;
+}
+.contact-container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(54, 53, 53);
+
+}
+.d img{
+    height: 240px;
+    width: 200px;
+}
+.c{
+    font-size: 23px;
+    font-family: 'Reem Kufi', sans-serif;
+    color: brown;
+}
+.d{
+    height: 260px;
+    width: 1000px;
+    border: 4px black solid;
+    background-color: wheat;
+    margin-left: 260px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+
+}
+.e{
+    height: 260px;
+    width: 1000px;
+    border: 4px rgb(0, 0, 0) solid;
+    background-color: wheat;
+    margin-left: 260px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around; 
+    align-items: center;
+}
+.e img{
+    height: 200px;
+    width: 200px;
+    margin-left: 40px;
+    margin-top: 40px
+}
+.f{
+    font-size: 23px;
+    font-family: 'Reem Kufi', sans-serif;
+    margin-left: 80px;
+    color: brown
+}
+.project-a{
+    position: absolute;
+    animation: move 1s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin-left: 735px;
+    margin-top: 20px;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.project-b{
+    position: absolute;
+    animation: move 1s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin-left: 735px;
+    margin-top: 100px;
+}
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+.contact-container{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.contact-container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 200px;
+    justify-content: center;
+}
+.contact-a{
+    position: absolute;
+    animation: move 1s ease-in-out infinite alternate;
+    border-radius: 50%;
+    margin-top: 600px;
+}
+
+
+@keyframes move{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
